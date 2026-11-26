@@ -4,3 +4,4 @@ out/
 public/pdf.worker.min.mjs
 *.tsbuildinfo
 .vercel/
+dist/

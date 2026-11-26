@@ -7,7 +7,7 @@ self.addEventListener("install", (event) =>
   ),
 );
 self.addEventListener("activate", (event) =>
-  event.waitUntil(self.clients.claim()),
+  event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith("icra-shell-")&&name!==cacheName)await caches.delete(name);await self.clients.claim()})()),
 );
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);

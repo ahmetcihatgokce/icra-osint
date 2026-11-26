@@ -9,7 +9,25 @@ export const metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr">
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              name: "İcraOSINT",
+              inLanguage: "tr",
+              applicationCategory: "BusinessApplication",
+              operatingSystem: "Web",
+              isAccessibleForFree: true,
+              author: { "@type": "Organization", name: "acgokce" },
+              areaServed: { "@type": "Country", name: "Türkiye" },
+            }),
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }

@@ -18,7 +18,10 @@ export default function Home() {
     [selected, setSelected] = useState(1);
   useEffect(() => {
     setDark(localStorage.getItem("icra-theme") === "dark");
-    if ("serviceWorker" in navigator)
+    if (
+      process.env.NEXT_PUBLIC_PORTABLE !== "1" &&
+      "serviceWorker" in navigator
+    )
       navigator.serviceWorker.register("/sw.js").catch(() => {});
   }, []);
   const words = norm(q.trim()).split(/\s+/);
@@ -206,6 +209,9 @@ export default function Home() {
         </div>
       </div>
       <aside>
+        {process.env.NEXT_PUBLIC_PORTABLE !== "1" && (
+          <a href="/kaynaklar">Tüm kaynaklar</a>
+        )}
         İcraOSINT　·　acgokce　 /　{" "}
         <a href="https://github.com/ahmetcihatgokce/icra-osint">
           Kaynak kodu ↗

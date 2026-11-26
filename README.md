@@ -25,3 +25,13 @@ Kaynaklar [katalogda](app/catalog.json), işlem adımları ve mevzuat bağlantı
 ## Gizlilik
 
 Belge işleme ve dışa aktarma tarayıcıda yapılır. UYAP bağlantısı, dosya yükleme uç noktası, izleme kodu veya uzak OCR servisi yoktur. Dış kurum bağlantıları ayrı sekmede açılır. Tüzel kişi belgelerinde yer alan gerçek kişilerin verileri de korunmalıdır.
+
+## Önizleme ve doğrulama
+
+![Kaynak atlasının masaüstü görünümü](docs/kaynak-atlasi.png)
+
+`npm run portable` aynı arayüzü ve PDF işçisini tek bir HTML dosyasında paketler. Güncel tarayıcıda açılabilen `dist/icra-osint.html` çevrimdışı inceleme veya kişisel sitede önizleme için kullanılabilir. Kurulabilir PWA, Next.js ana dağıtımında sunulur.
+
+26 Kasım 2026 tarihli Chromium testinde sentetik PDF ile sayfa metni çıkarma, eksik alıntının reddi, dayanaklı ilişki, kronoloji, DOCX/XLSX ve yazdırılabilir PDF, arama, kişi filtresi, tema ve 390 piksel mobil görünüm denendi. Belge akışında dış ağa istek gözlenmedi. 18 kurum bağlantısının 17’si HTTP 200 döndürdü. TTSG giriş adresi otomatik kontrolde HTTP 503 döndürdü. Üyelik arkasındaki işlemler ve ücretli rapor satın alma denenmedi.
+
+[acgokce üzerinde uygulamayı aç](https://acgokce.vercel.app/icra-osint.html). GitHub Actions iş akışı main değiştiğinde üretim derlemesini kontrol eder ve taşınabilir sürümü preview dalına yazar.

@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "tsc --noEmit",
-    "build": "node scripts/prepare.mjs && next build --webpack",
+    "build": "node scripts/prepare.mjs && next build --webpack && node scripts/offline.mjs",
     "dev": "node scripts/prepare.mjs && next dev",
     "start": "npx --no-install serve out",
-    "links": "node scripts/links.mjs"
+    "links": "node scripts/links.mjs",
+    "portable": "node scripts/prepare.mjs && node scripts/portable.mjs"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "@types/d3-hierarchy": "^3.1.7",
     "@types/node": "^26.6.11",
     "@types/react": "^19.3.3",
+    "esbuild": "^0.28.2",
     "typescript": "^5.9.3"
   }
 }
