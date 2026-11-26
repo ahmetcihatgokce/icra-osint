@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "person": "Tüzel kişi",
+    "group": "Sicil ve tescil",
+    "name": "Türkiye Ticaret Sicili Gazetesi",
+    "url": "https://ticaretsicil.gov.tr/",
+    "access": ["Ücretsiz", "Üyelik"],
+    "purpose": "Kuruluş, sermaye, unvan, temsil ve tasfiye ilanlarını tarih sırasıyla inceleyin.",
+    "limit": "TTSG hesabı veya e-Devlet ile giriş yapılır. Onaylı suret ayrıca ücretlidir. Sicil müdürlüğü ve numarasını eşleştirin."
+  },
+  {
+    "id": 2,
+    "person": "Tüzel kişi",
+    "group": "Sicil ve tescil",
+    "name": "MERSİS",
+    "url": "https://mersis.ticaret.gov.tr/",
+    "access": ["Üyelik"],
+    "purpose": "Şirket kaydını ve sicil kimliğini kontrol edin.",
+    "limit": "Firma arama için oturum açılır. Temsil ve tescil işlemleri ilgili role bağlıdır."
+  },
+  {
+    "id": 3,
+    "person": "Tüzel kişi",
+    "group": "Sicil ve tescil",
+    "name": "e-Devlet şirket sorgulama",
+    "url": "https://www.turkiye.gov.tr/gtb-ticari-isletme-ve-sirket-sorgulama",
+    "access": ["Ücretsiz", "Üyelik"],
+    "purpose": "Ticari işletme ve şirket kaydını Bakanlığın hizmetinden inceleyin.",
+    "limit": "Kimlik doğrulaması gerekir. Görülebilen alanlarla sınırlı çalışın."
+  },
+  {
+    "id": 4,
+    "person": "Tüzel kişi",
+    "group": "Sicil ve tescil",
+    "name": "Ticaret sicili müdürlükleri",
+    "url": "https://dabm.ticaret.gov.tr/ic-ticaret/ticaret-sicili",
+    "access": ["Ücretli"],
+    "purpose": "TTK m.35 uyarınca sicil belgesini inceleme ve onaylı suret isteme yolunu bulun.",
+    "limit": "Ücret etiketi onaylı suret içindir. İlgili müdürlükten güncel gideri öğrenin."
+  },
+  {
+    "id": 5,
+    "person": "Tüzel kişi",
+    "group": "İhale ve finans",
+    "name": "EKAP ihale arama",
+    "url": "https://ekap.kik.gov.tr/ekap/ortak/ihalearama/index.html",
+    "access": ["Ücretsiz"],
+    "purpose": "İhale kayıt numarasıyla ilanı ve yayımlanmış sonuçları inceleyin.",
+    "limit": "Sonuç ilanı, yüklenicinin bugün muaccel bir alacağı olduğunu tek başına göstermez."
+  },
+  {
+    "id": 6,
+    "person": "Tüzel kişi",
+    "group": "İhale ve finans",
+    "name": "KAP bildirim sorgusu",
+    "url": "https://kap.org.tr/tr/bildirim-sorgu",
+    "access": ["Ücretsiz"],
+    "purpose": "KAP kapsamındaki şirketlerin finansal rapor ve özel durum açıklamalarına ulaşın.",
+    "limit": "Konsolide tablonun dönemini, para birimini ve bağımsız denetim kapsamını kaydedin."
+  },
+  {
+    "id": 7,
+    "person": "Tüzel kişi",
+    "group": "Fikrî mülkiyet",
+    "name": "TÜRKPATENT araştırma",
+    "url": "https://www.turkpatent.gov.tr/research",
+    "access": ["Ücretsiz"],
+    "purpose": "Marka, patent ve tasarım için ilgili sekmede başvuru sahibi ve numara ile arayın.",
+    "limit": "Başvuru, tescil ve güncel hak sahipliği farklı aşamalardır. Devir ve yenilemeleri inceleyin."
+  },
+  {
+    "id": 8,
+    "person": "Tüzel kişi",
+    "group": "Oda ve sektör",
+    "name": "İstanbul Ticaret Odası",
+    "url": "https://bilgibankasi.ito.org.tr/tr/bilgi-bankasi/firma-bilgileri",
+    "access": ["Ücretsiz"],
+    "purpose": "Sicil numarası, ticaret unvanı veya meslek grubu üzerinden oda kaydını bulun.",
+    "limit": "Tekil sorguyu kullanın. Faaliyet kodu fiilî faaliyet veya varlık sahipliği kanıtı değildir."
+  },
+  {
+    "id": 9,
+    "person": "Tüzel kişi",
+    "group": "Oda ve sektör",
+    "name": "Sakarya Ticaret ve Sanayi Odası",
+    "url": "https://www.satso.org.tr/",
+    "access": ["Ücretsiz"],
+    "purpose": "Üye ve firma arama bölümünde Sakarya oda kaydını inceleyin.",
+    "limit": "Kaydın tarihini ve sicil numarasını kontrol edin. Adres kaydı fiilî haciz mahallini kanıtlamaz."
+  },
+  {
+    "id": 10,
+    "person": "Tüzel kişi",
+    "group": "Oda ve sektör",
+    "name": "TOBB Sanayi Veritabanı",
+    "url": "https://sanayi.org.tr/",
+    "access": ["Ücretsiz", "Üyelik"],
+    "purpose": "Ürün, sektör ve kapasiteye ilişkin yayımlanan istatistikleri araştırın.",
+    "limit": "Açık istatistik ile abonelik gerektiren ayrıntılı kayıtların kapsamı farklıdır."
+  },
+  {
+    "id": 11,
+    "person": "Tüzel kişi",
+    "group": "İhale ve finans",
+    "name": "Findeks Risk Raporu",
+    "url": "https://www.findeks.com/",
+    "access": ["Ücretli", "Üyelik", "Özel yetki"],
+    "purpose": "Ticari değerlendirmede raporun temin koşullarını inceleyin.",
+    "limit": "Üçüncü kişinin raporu için ilgili kişinin veya şirketin onayı gerekir. Ürün bedelini işlem ekranında kontrol edin."
+  },
+  {
+    "id": 12,
+    "person": "Tüzel kişi",
+    "group": "Adli ilanlar",
+    "name": "Konkordato ve mühlet ilanları",
+    "url": "https://www.ilan.gov.tr/ilan/kategori/49/konkordato-ve-muhlet-iik-288inci-md",
+    "access": ["Ücretsiz"],
+    "purpose": "Mahkeme, esas numarası ve ilan tarihiyle mühlet ve sonraki kararları karşılaştırın.",
+    "limit": "Eski bir ilan güncel mühlet durumunu göstermez. Kararın kapsamını dosyadan kontrol edin."
+  },
+  {
+    "id": 13,
+    "person": "Tüzel kişi",
+    "group": "Adli ilanlar",
+    "name": "İflas ve tasfiye ilanları",
+    "url": "https://www.ilan.gov.tr/ilan/kategori/50/iflas-ve-tasfiye-ilanlari",
+    "access": ["Ücretsiz"],
+    "purpose": "Tasfiye, sıra cetveli ve iflas ilanlarının tarih ve merciini belirleyin.",
+    "limit": "İlan numarası ve dosya numarasını ayırın. Portal erişimi kesintili olabilir."
+  },
+  {
+    "id": 14,
+    "person": "Gerçek kişi",
+    "group": "Dosya erişimi",
+    "name": "e-Devlet icra dosyası",
+    "url": "https://www.turkiye.gov.tr/adalet-icra-dosyasi-sorgulama",
+    "access": ["Ücretsiz", "Üyelik", "Özel yetki"],
+    "purpose": "Tarafı olduğunuz icra dosyalarını kendi hesabınızda inceleyin.",
+    "limit": "Hizmet kişiye özeldir. Başkasının hesabını veya kimlik bilgilerini kullanmayın."
+  },
+  {
+    "id": 15,
+    "person": "Gerçek kişi",
+    "group": "Dosya erişimi",
+    "name": "UYAP Avukat Portal",
+    "url": "https://avukat.uyap.gov.tr/",
+    "access": ["Üyelik", "Özel yetki"],
+    "purpose": "Dosya kapsamında avukatın yetkili olduğu işlemler için resmî portala geçin.",
+    "limit": "Mesleki kimlik ve işlem yetkisi gerekir. Belgeler yalnızca kullanıcı tarafından seçilirse yerel çalışma alanına alınır."
+  },
+  {
+    "id": 16,
+    "person": "Gerçek kişi",
+    "group": "Dosya erişimi",
+    "name": "UYAP Vatandaş Portal",
+    "url": "https://vatandas.uyap.gov.tr/",
+    "access": ["Ücretsiz", "Üyelik", "Özel yetki"],
+    "purpose": "Kendi dosyanızın taraf ve safahat bilgilerine erişin.",
+    "limit": "Kimlik doğrulama yöntemi ve dosya rolü görüntülenebilen içeriği belirler."
+  },
+  {
+    "id": 17,
+    "person": "Gerçek kişi",
+    "group": "Miras işlemleri",
+    "name": "Murise ait icra dosyaları",
+    "url": "https://www.turkiye.gov.tr/adalet-murise-ait-icra-dosyasi-sorgulama",
+    "access": ["Ücretsiz", "Üyelik", "Özel yetki"],
+    "purpose": "Mirasçısı olduğunuz kişiye ait dosyalar için resmî başvuru kanalını açın.",
+    "limit": "Yalnız hizmetin doğruladığı mirasçılık kapsamında kullanın."
+  },
+  {
+    "id": 18,
+    "person": "Gerçek kişi",
+    "group": "Belge denetimi",
+    "name": "Barkodlu belge doğrulama",
+    "url": "https://www.turkiye.gov.tr/belge-dogrulama",
+    "access": ["Ücretsiz"],
+    "purpose": "Hukuka uygun edinilen e-Devlet belgesini düzenleyen hizmet üzerinden kontrol edin.",
+    "limit": "Barkod ve istenen ek verileri yalnızca resmî doğrulama sayfasına girin."
+  }
+]

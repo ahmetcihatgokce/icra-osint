@@ -1,0 +1,6 @@
+# İcraOSINT
+Türkiye için açık kaynaklı, Türkçe icra ve alacak araştırma dizini.
+- Kaynak kataloğu: https://github.com/ahmetcihatgokce/icra-osint/blob/main/app/catalog.json
+- İşlem rehberi: https://github.com/ahmetcihatgokce/icra-osint/blob/main/app/guide.tsx
+- Lisans: MIT (uygulama kodu). Bağlantı verilen kurumların belgeleri kendi koşullarına tabidir.
+Belge masası cihazda çalışır. Kullanıcı dosyaları bu sitenin taranabilir içeriği değildir.
