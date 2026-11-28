@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import catalog from "./catalog.json";
 import Guide from "./guide";
-import Workspace from "./workspace";
+
 const norm = (s: string) =>
   s
     .toLocaleLowerCase("tr")
@@ -10,7 +10,7 @@ const norm = (s: string) =>
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
 export default function Home() {
-  const [tab, setTab] = useState("Kaynak atlası"),
+  const [tab, setTab] = useState("Takip rehberi"),
     [q, setQ] = useState(""),
     [who, setWho] = useState("Tümü"),
     [access, setAccess] = useState("Tüm erişimler"),
@@ -45,7 +45,7 @@ export default function Home() {
           <b>İ</b> İcra<span>OSINT</span>
         </div>
         <nav>
-          {["Kaynak atlası", "Belge masası", "İşlem rehberi"].map((x) => (
+          {["Takip rehberi", "Kaynak atlası"].map((x) => (
             <button
               aria-current={tab === x ? "page" : undefined}
               key={x}
@@ -201,10 +201,7 @@ export default function Home() {
             </article>
           </div>
         </div>
-        <div hidden={tab !== "Belge masası"}>
-          <Workspace />
-        </div>
-        <div hidden={tab !== "İşlem rehberi"}>
+        <div hidden={tab !== "Takip rehberi"}>
           <Guide />
         </div>
       </div>

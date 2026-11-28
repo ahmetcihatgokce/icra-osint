@@ -12,7 +12,6 @@ const files = [
   "/icon.svg",
   "/icon-192.png",
   "/icon-512.png",
-  "/pdf.worker.min.mjs",
   ...chunks,
 ];
 const version = createHash("sha256")

@@ -410,3 +410,4 @@ aside {
     margin: 4px;
   }
 }
+.journey .columns{margin-top:20px}.stages{display:flex;align-items:stretch;flex-direction:column;gap:4px}.stages button{color:var(--ink);text-align:left;background:none;border:0}.stages button[aria-current=step]{background:#b49b5530;font-weight:bold}.journey li{margin-bottom:12px}.journey ol,.journey ul{padding-left:22px}.journey .card{overflow-wrap:anywhere}@media(max-width:700px){.stages{max-height:none;display:grid;grid-template-columns:1fr 1fr}.stages button{padding:6px;font-size:13px}}

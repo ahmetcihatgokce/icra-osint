@@ -20,7 +20,7 @@ self.addEventListener("fetch", (event) => {
   if (
     url.pathname !== "/" &&
     !url.pathname.startsWith("/_next/static/") &&
-    !["/pdf.worker.min.mjs", "/icon.svg", "/manifest.webmanifest"].includes(
+    !["/icon.svg", "/manifest.webmanifest"].includes(
       url.pathname,
     )
   )

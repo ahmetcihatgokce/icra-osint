@@ -1,8 +1,8 @@
 import "./style.css";
 export const metadata = {
-  title: "İcraOSINT | Türkiye icra ve alacak araştırma kaynakları",
+  title: "İcraOSINT | Yeni avukatlar için icra takibi rehberi",
   description:
-    "Türkiye ticaret sicili, konkordato ve ihale kaynakları. Belgeleri cihazınızda inceleyin, şirket geçmişini ve kaynaklı araştırma raporlarını oluşturun.",
+    "Takip açılışı, tebligat, haciz, tahsil ve kapanış için uygulama adımları ve resmî kaynaklar.",
   manifest: "/manifest.webmanifest",
   icons: { icon: "/icon.svg" },
 };

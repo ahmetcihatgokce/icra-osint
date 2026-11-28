@@ -24,18 +24,13 @@
   },
   "homepage": "https://github.com/ahmetcihatgokce/icra-osint#readme",
   "dependencies": {
-    "d3-hierarchy": "^3.1.3",
-    "docx": "^9.16.0",
-    "exceljs": "^4.4.0",
     "next": "^16.4.6",
-    "pdfjs-dist": "^6.5.438",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "serve": "^14.2.8",
     "sharp": "^0.35.5"
   },
   "devDependencies": {
-    "@types/d3-hierarchy": "^3.1.7",
     "@types/node": "^26.6.11",
     "@types/react": "^19.3.3",
     "esbuild": "^0.28.2",

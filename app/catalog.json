@@ -147,7 +147,7 @@
     "url": "https://avukat.uyap.gov.tr/",
     "access": ["Üyelik", "Özel yetki"],
     "purpose": "Dosya kapsamında avukatın yetkili olduğu işlemler için resmî portala geçin.",
-    "limit": "Mesleki kimlik ve işlem yetkisi gerekir. Belgeler yalnızca kullanıcı tarafından seçilirse yerel çalışma alanına alınır."
+    "limit": "Mesleki kimlik ve işlem yetkisi gerekir. Erişim yetkisini her dosya için ayrıca kontrol edin."
   },
   {
     "id": 16,
